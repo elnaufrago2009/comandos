@@ -12,6 +12,7 @@ Comandos Ruby on Rails
 ======================
 
 rails g migration remove_name_from_productos
+
 rails g migration add_name_to_productos
 
 Post.joins(:categorizations).where(:categorizations => {:category_id => [3, 5]})
